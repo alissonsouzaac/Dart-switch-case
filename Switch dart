@@ -1,0 +1,19 @@
+import 'dart:html';
+
+void main() {
+//  var header = querySelector('#header');
+ //header.text = "Alisson";
+  
+  
+  String linguagem = "CPP";
+  switch(linguagem){
+    case "Dart":
+        print("Dart");
+        break;
+    case "Java":
+      print("Java");
+      break;
+      default:
+       print("Outra");
+  }
+}
